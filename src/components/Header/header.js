@@ -21,16 +21,16 @@ const useStyles = makeStyles(theme =>({
       paddingRight: '55px'
     },
     see: {
-        position: 'relative',
+        width:'100%',
+        position: 'absolute',
         color:'#212121',
         fontSize:'12px',
         letterSpacing: '120%',
         textAlign: 'center',
         fontFamily: 'Montserrat',
         lineHeight: '14px',
-        paddingLeft: '12px',
-
-
+        paddingLeft: '10px',
+      
     },
 lin:{
         position:'relative',
