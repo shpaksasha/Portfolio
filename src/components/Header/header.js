@@ -30,9 +30,13 @@ const useStyles = makeStyles(theme =>({
         fontFamily: 'Montserrat',
         lineHeight: '14px',
         paddingLeft: '10px',
-      
+        '&:b':{
+            display:'flex',
+            alignItems:'center',
+        }
     },
 lin:{
+
         position:'relative',
         textDecoration: 'none'
 },
