@@ -17,6 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1jQZGRWt3OyqGUYa7PbbM1YIftm" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -26,9 +29,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,20 +52,24 @@
       <updated>1603738179990</updated>
       <workItem from="1603738181037" duration="7175000" />
       <workItem from="1603819113228" duration="11886000" />
+      <workItem from="1603909757528" duration="9500000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603739579841">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/95.41.2465.1399@95.41.2465.1399" timestamp="1603739579841" />
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1603741826750">
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1603909761216">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1603741826750" />
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1603909761216" />
   </component>
 </project>

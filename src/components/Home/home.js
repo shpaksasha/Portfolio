@@ -1,6 +1,6 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import {Grid, Typography, Button} from '@material-ui/core';
+import {Grid, Typography, Button,Card, CardContent, CardActions} from '@material-ui/core';
 
 
 const useStyles = makeStyles(theme =>({
@@ -12,33 +12,57 @@ const useStyles = makeStyles(theme =>({
         alignItems: 'center',
     },
     caption: {
-fontFamily: 'Regular',
+        marginTop:' 40px',
+        fontFamily: 'Regular',
         fontWeight:'bold',
         fontSize:'50px',
         lineHeight: '120%',
         color: '#151145'
     },
     description: {
+        marginTop:'24px',
         fontFamily: 'Poppins',
         fontSize: '16px',
         lineHeight: '150%',
         color: '#828282'
+    },
+    button: {
+        marginTop: '41px',
+        background: '#29AAE1',
+        boxShadow: '0px 2px 10px',
+        borderRadius: '4px',
+        textTransform: 'none',
+        padding: '14px 30px',
+        '&:hover': {
+            color: '#9e9e9e',
+            background: '#ffd54f'
+        }
     },
     heroImage: {
         width: '100%',
         height: 'auto',
         maxWidth: '600px'
     },
-    button: {
-        background: '#29AAE1',
-        boxShadow: '0px 2px 10px',
-        borderRadius: '4px',
-        textTransform: 'none',
-        padding: '12px 28px',
-        '&:hover': {
-            color: '#9e9e9e',
-            background:'#ffd54f'
-        }
+    services: {
+        fontWeight: 'bold',
+        fontFamily: 'Regular',
+        fontSize: '35px',
+        lineHeight: '130%',
+        color: '#151145'
+    },
+    block: {
+        width: '280px',
+    },
+    bullet: {
+        display: 'inline-block',
+        margin: '0 2px',
+        transform: 'scale(0.8)',
+    },
+    title: {
+        fontSize: 14,
+    },
+    pos: {
+        marginBottom: 12,
     },
 }))
 
@@ -61,7 +85,34 @@ const Home = () => {
                <Grid item md={6}>
                    <img className={classes.heroImage} src={'/images/pexels.jpeg'}/>
                </Grid>
+
+               <Grid item md={6}>
+                   <Typography className={classes.services}>Services we provide</Typography>
+                   <Card className={classes.block}>
+                       <CardContent>
+                           <object type="image/svg+xml" data="/icon/folder.svg" width="60" height="60"/>
+                           <Typography className={classes.title} color="textSecondary" gutterBottom>
+                               Word of the Day
+                           </Typography>
+                           <Typography variant="h5" component="h2">
+                           </Typography>
+                           <Typography className={classes.pos} color="textSecondary">
+                               adjective
+                           </Typography>
+                           <Typography variant="body2" component="p">
+                               well meaning and kindly.
+                               <br />
+                               {'"a benevolent smile"'}
+                           </Typography>
+                       </CardContent>
+                       <CardActions>
+                           <Button size="small">Learn More</Button>
+                       </CardActions>
+                   </Card>
+               </Grid>
            </Grid>
+
+
        </div>
     )
 };
