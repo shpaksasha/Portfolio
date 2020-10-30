@@ -1,9 +1,9 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import {Grid, Typography, Button,Card, CardContent, CardActions} from '@material-ui/core';
+import {Button, Card, CardActions, CardContent, Grid, Typography} from '@material-ui/core';
 
 
-const useStyles = makeStyles(theme =>({
+const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
         display: 'flex',
@@ -12,30 +12,33 @@ const useStyles = makeStyles(theme =>({
         alignItems: 'center',
     },
     caption: {
-        marginTop:' 40px',
+        marginTop: ' 40px',
         fontFamily: 'Regular',
-        fontWeight:'bold',
-        fontSize:'50px',
+        fontWeight: 'bold',
+        fontSize: '50px',
         lineHeight: '120%',
         color: '#151145'
     },
     description: {
-        marginTop:'24px',
+        marginTop: '24px',
         fontFamily: 'Poppins',
         fontSize: '16px',
         lineHeight: '150%',
         color: '#828282'
     },
     button: {
+        fontFamily: 'Regular',
         marginTop: '41px',
         background: '#29AAE1',
-        boxShadow: '0px 2px 10px',
-        borderRadius: '4px',
+        boxShadow: '0px 2px 4px',
+        borderRadius: '3px',
         textTransform: 'none',
         padding: '14px 30px',
         '&:hover': {
-            color: '#9e9e9e',
-            background: '#ffd54f'
+            color: '#29AAE1',
+            background: 'rgba(150, 224, 255, 0.80)',
+            border: '2px solid #29AAE1',
+            boxSizing: 'border-box'
         }
     },
     heroImage: {
@@ -44,76 +47,122 @@ const useStyles = makeStyles(theme =>({
         maxWidth: '600px'
     },
     services: {
+        width: '335px',
         fontWeight: 'bold',
         fontFamily: 'Regular',
         fontSize: '35px',
-        lineHeight: '130%',
-        color: '#151145'
+        lineHeight: '120%',
+        wordSpacing: '2px',
+        color: '#151145',
+        marginBottom: '42px',
+        marginTop: '60px'
     },
     block: {
-        width: '280px',
+        position: 'relative',
+        width: '268px',
+        height: '425px',
+        boxShadow: '3px 4px 12px',
+    },
+    digital: {
+        color: '#29AAE1',
+        fontSize: '22px',
+        lineHeight: '120%',
+        fontFamily: 'Regular',
+        marginBottom: '16px',
+        marginTop: '10px'
+    },
+    online: {
+        color: '#828282',
+        fontSize: '14px',
+        lineHeight: '150%',
+        fontFamily: 'Poppins',
+        marginBottom: '21px',
+    },
+    list: {
+        color: '#333333',
+        fontSize: '13px',
+        lineHeight: '180%',
+        fontFamily: 'Dancing Script, cursive',
+        display: 'block',
+        marginBottom: '62px',
+        '& ul': {
+            paddingLeft: 15,
+        },
+    },
+    learn: {
+        fontFamily: 'Regular',
+        position: 'absolute',
+        left: '50%',
+        transform: 'translate(-50%, 0)',
+        background: '#29AAE1',
+        boxShadow: '0px 2px 4px',
+        borderRadius: '3px',
+        textTransform: 'none',
+        padding: '9px 18px',
+        '&:hover': {
+            color: '#29AAE1',
+            background: 'rgba(150, 224, 255, 0.80)',
+            border: '2px solid #29AAE1',
+            boxSizing: 'border-box'
+        }
     },
     bullet: {
         display: 'inline-block',
         margin: '0 2px',
         transform: 'scale(0.8)',
     },
-    title: {
-        fontSize: 14,
-    },
-    pos: {
-        marginBottom: 12,
-    },
 }))
 
 const Home = () => {
     const classes = useStyles();
-    return(
-       <div className={classes.root}>
-           <Grid container md={12} spacing={0}>
-               <Grid item md={6}>
-                   <Typography className={classes.caption}>
-                       Experts in making enterprise solutions
-                   </Typography>
-                   <Typography className={classes.description}>
-                       Our clients receive all in building services from analysis of their critical problems to thinking up solutions and their implementation.
-                   </Typography>
-                   <Button variant='contained' className={classes.button}>
-                       Create something together !
-                   </Button>
-               </Grid>
-               <Grid item md={6}>
-                   <img className={classes.heroImage} src={'/images/pexels.jpeg'}/>
-               </Grid>
+    return (
+        <div className={classes.root}>
+            <Grid container md={12} spacing={0}>
+                <Grid item md={6}>
+                    <Typography className={classes.caption}>
+                        Experts in making enterprise solutions
+                    </Typography>
+                    <Typography className={classes.description}>
+                        Our clients receive all in building services from analysis of their critical problems to
+                        thinking up solutions and their implementation.
+                    </Typography>
+                    <Button variant='contained' className={classes.button}>
+                        Create something together !
+                    </Button>
+                </Grid>
+                <Grid item md={6}>
+                    <img className={classes.heroImage} src={'/images/pexels.jpeg'}/>
+                </Grid>
 
-               <Grid item md={6}>
-                   <Typography className={classes.services}>Services we provide</Typography>
-                   <Card className={classes.block}>
-                       <CardContent>
-                           <object type="image/svg+xml" data="/icon/folder.svg" width="60" height="60"/>
-                           <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               Word of the Day
-                           </Typography>
-                           <Typography variant="h5" component="h2">
-                           </Typography>
-                           <Typography className={classes.pos} color="textSecondary">
-                               adjective
-                           </Typography>
-                           <Typography variant="body2" component="p">
-                               well meaning and kindly.
-                               <br />
-                               {'"a benevolent smile"'}
-                           </Typography>
-                       </CardContent>
-                       <CardActions>
-                           <Button size="small">Learn More</Button>
-                       </CardActions>
-                   </Card>
-               </Grid>
-           </Grid>
+                <Grid item md={6}>
+                    <Typography className={classes.services}>Services we provide</Typography>
+                    <Card className={classes.block}>
+                        <CardContent>
+                            <object type="image/svg+xml" data="/icon/folder.svg" width="44" height="44"/>
+                            <Typography className={classes.digital}>
+                                Digital strategy
+                            </Typography>
+                            <Typography className={classes.online}>
+                                A digital strategy is a blueprint of how you will build out your business`s online
+                                objectives.
+                            </Typography>
+                            <Typography className={classes.list}>
+                                <ul>
+                                    <li>Requirements Analysis</li>
+                                    <li>Agile Innovation Packages</li>
+                                    <li>Digital Strategy Consulting</li>
+                                </ul>
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button className={classes.learn}>Learn More</Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+            </Grid>
 
 
-       </div>
+        </div>
     )
 };
 

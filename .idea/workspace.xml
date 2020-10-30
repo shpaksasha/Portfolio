@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="" />
+    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/Home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +55,7 @@
       <workItem from="1603738181037" duration="7175000" />
       <workItem from="1603819113228" duration="11886000" />
       <workItem from="1603909757528" duration="9500000" />
+      <workItem from="1603998768838" duration="6515000" />
     </task>
     <servers />
   </component>
@@ -67,9 +70,9 @@
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/95.41.2465.1399@95.41.2465.1399" timestamp="1603739579841" />
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1603909761216">
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1603998773514">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1603909761216" />
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1603998773514" />
   </component>
 </project>
