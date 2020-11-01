@@ -44,7 +44,8 @@ const useStyles = makeStyles(theme => ({
     heroImage: {
         width: '100%',
         height: 'auto',
-        maxWidth: '600px'
+        maxWidth: '610px',
+        paddingLeft: '32px'
     },
     services: {
         width: '335px',
@@ -63,7 +64,7 @@ const useStyles = makeStyles(theme => ({
         height: '425px',
         boxShadow: '3px 4px 12px',
     },
-    digital: {
+    cardTitle: {
         color: '#29AAE1',
         fontSize: '22px',
         lineHeight: '120%',
@@ -71,7 +72,7 @@ const useStyles = makeStyles(theme => ({
         marginBottom: '16px',
         marginTop: '10px'
     },
-    online: {
+    cardDescription: {
         color: '#828282',
         fontSize: '14px',
         lineHeight: '150%',
@@ -106,6 +107,16 @@ const useStyles = makeStyles(theme => ({
             boxSizing: 'border-box'
         }
     },
+    infoBlock1: {
+        marginTop: '156px',
+        maxWidth: '270px',
+        margin: '0 auto',
+    },
+    infoBlock2: {
+
+        maxWidth: '270px',
+        margin: '0 auto',
+    },
     bullet: {
         display: 'inline-block',
         margin: '0 2px',
@@ -134,15 +145,18 @@ const Home = () => {
                     <img className={classes.heroImage} src={'/images/pexels.jpeg'}/>
                 </Grid>
 
-                <Grid item md={6}>
+
+
+                <Grid container md={12} spacing={1}>
+                <Grid item md={3}>
                     <Typography className={classes.services}>Services we provide</Typography>
                     <Card className={classes.block}>
                         <CardContent>
-                            <object type="image/svg+xml" data="/icon/folder.svg" width="44" height="44"/>
-                            <Typography className={classes.digital}>
+                            <object type="image/svg+xml" data='/icon/folder.svg' width='44' height='44'/>
+                            <Typography className={classes.cardTitle}>
                                 Digital strategy
                             </Typography>
-                            <Typography className={classes.online}>
+                            <Typography className={classes.cardDescription}>
                                 A digital strategy is a blueprint of how you will build out your business`s online
                                 objectives.
                             </Typography>
@@ -159,9 +173,48 @@ const Home = () => {
                         </CardActions>
                     </Card>
                 </Grid>
+
+                <Grid items md={9}>
+                    <Grid container={12}>
+                        <Grid item md={4} className={classes.infoBlock1}>
+                            <object type="image/svg+xml" data='/icon/web.svg' width='44' height='44'/>
+                            <Typography className={classes.cardTitle}>Web design</Typography>
+                            <Typography className={classes.cardDescription}>Let us design your product from hand sketches and UX wireframes to visual design and interactions.</Typography>
+                        </Grid>
+                        <Grid item md={4} className={classes.infoBlock1}>
+                            <object type="image/svg+xml" data='/icon/comp.svg' width='44' height='44'/>
+                            <Typography className={classes.cardTitle}>Web development</Typography>
+                            <Typography className={classes.cardDescription}>We create web products of all types: from landing pages to web apps, from custom to WordPress.</Typography>
+                        </Grid>
+                        <Grid item md={4} className={classes.infoBlock1}>
+                            <object type="image/svg+xml" data='/icon/tel.svg' width='44' height='44'/>
+                            <Typography className={classes.cardTitle}>Mobile development</Typography>
+                            <Typography className={classes.cardDescription}>We use only latest technologies while developing mobile products for iOS and Android.</Typography>
+                        </Grid>
+                        <Grid item md={4} className={classes.infoBlock2}>
+                            <object type="image/svg+xml" data='/icon/tel.svg' width='44' height='44'/>
+                            <Typography className={classes.cardTitle}>Mobile development</Typography>
+                            <Typography className={classes.cardDescription}>We use only latest technologies while developing mobile products for iOS and Android.</Typography>
+                        </Grid>
+                        <Grid item md={4} className={classes.infoBlock2}>
+                            <object type="image/svg+xml" data='/icon/tel.svg' width='44' height='44'/>
+                            <Typography className={classes.cardTitle}>Mobile development</Typography>
+                            <Typography className={classes.cardDescription}>We use only latest technologies while developing mobile products for iOS and Android.</Typography>
+                        </Grid>
+                        <Grid item md={4} className={classes.infoBlock2}>
+                            <object type="image/svg+xml" data='/icon/tel.svg' width='44' height='44'/>
+                            <Typography className={classes.cardTitle}>Mobile development</Typography>
+                            <Typography className={classes.cardDescription}>We use only latest technologies while developing mobile products for iOS and Android.</Typography>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+
+                </Grid>
+
+
+
             </Grid>
-
-
         </div>
     )
 };
