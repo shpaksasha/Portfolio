@@ -8,8 +8,9 @@ const useStyles = makeStyles(theme => ({
     bar: {
         flexGrow: 1,
         display: 'flex',
+        padding: '0px 100px',
         margin: '0',
-        padding: '0',
+        // padding: '0',
         backgroundColor: '#eceff1',
     },
     icon: {

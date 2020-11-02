@@ -70,9 +70,7 @@ const Home = () => {
                 <Grid item md={6}>
                     <img className={classes.heroImage} src={'/images/pexels.jpeg'}/>
                 </Grid>
-
                 <Cards/>
-
             </Grid>
         </div>
     )

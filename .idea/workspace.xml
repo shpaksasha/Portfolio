@@ -32,7 +32,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +56,7 @@
       <workItem from="1603998768838" duration="6515000" />
       <workItem from="1604083134719" duration="9391000" />
       <workItem from="1604245682992" duration="11469000" />
+      <workItem from="1604260768382" duration="4320000" />
     </task>
     <servers />
   </component>
