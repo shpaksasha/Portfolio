@@ -1,6 +1,6 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import {Container, Grid, Typography} from '@material-ui/core';
+import {Grid, Typography} from '@material-ui/core';
 import {NavLink} from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
@@ -11,6 +11,7 @@ const useStyles = makeStyles(theme => ({
         height: '280px',
         width: '100%',
         padding: '0rem 6.25rem',
+        boxSizing:'border-box'
     },
     caption: {
         fontWeight:'bold',
@@ -18,7 +19,10 @@ const useStyles = makeStyles(theme => ({
         fontSize: '18px',
         lineHeight: '150%',
         fontFamily:'Roboto, sans-serif',
-        paddingBottom: "18px"
+        paddingBottom: '18px'
+    },
+    text: {
+        paddingBottom: '18px'
     },
     link: {
         color: '#828282',
@@ -27,9 +31,6 @@ const useStyles = makeStyles(theme => ({
         fontFamily: 'Poppins',
         textDecoration: 'none',
     },
-    text: {
-        paddingBottom: "18px"
-    }
 }))
 
 const Footer = () => {
@@ -54,8 +55,8 @@ const Footer = () => {
                     <Typography className={classes.text}>
                         <NavLink className={classes.link} activeClassName={classes.linkActive}
                                  to="/portfolio">Portfolio</NavLink></Typography>
-
                 </Grid>
+
                 <Grid item md={3}>
                     <Typography className={classes.caption}>About company</Typography>
                     <Typography className={classes.text}>
@@ -66,6 +67,7 @@ const Footer = () => {
                         <NavLink className={classes.link} activeClassName={classes.linkActive}
                                  to="/contacts">Contacts</NavLink></Typography>
                 </Grid>
+
                 <Grid item md={3}>
                     <Typography className={classes.caption}>Contact us</Typography>
 
@@ -74,6 +76,7 @@ const Footer = () => {
                             us</NavLink>
                     </Typography>
                 </Grid>
+
                 <Grid item md={3}>
                     <Typography className={classes.caption}>Career</Typography>
                     <Typography className={classes.text}>
