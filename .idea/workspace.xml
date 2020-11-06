@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/scrollTo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/scrollTo.js" afterDir="false" />
-    </list>
+    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +32,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,7 +62,7 @@
       <workItem from="1604516049943" duration="7402000" />
       <workItem from="1604523780253" duration="1481000" />
       <workItem from="1604527547665" duration="586000" />
-      <workItem from="1604600048891" duration="4675000" />
+      <workItem from="1604600048891" duration="9454000" />
     </task>
     <servers />
   </component>
@@ -79,13 +73,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603739579841">
+    <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604610411852">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/95.41.2465.1399@95.41.2465.1399" timestamp="1603739579841" />
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1604245688326">
+    <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/95.41.2465.1399@95.41.2465.1399" timestamp="1604610411852" />
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1604606365664">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1604245688326" />
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1604606365664" />
   </component>
 </project>
