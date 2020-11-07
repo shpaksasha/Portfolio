@@ -35,7 +35,7 @@ caption: {
     },
     button: {
         fontWeight: 'bold',
-        fontSize: '14px',
+        fontSize: '13px',
         color: '#FFFFFF',
         letterSpacing: '0.05em',
         fontFamily: 'Regular',
@@ -44,7 +44,7 @@ caption: {
         boxShadow: '0px 2px 4px',
         borderRadius: '3px',
         textTransform: 'none',
-        padding: '14px 26px',
+        padding: '14px 25px',
         '&:hover': {
             color: '#29AAE1',
             background: 'rgba(150, 224, 255, 0.80)',

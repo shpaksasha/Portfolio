@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
     },
     button: {
         fontWeight: 'bold',
-        fontSize: '14px',
+        fontSize: '13px',
         color: '#FFFFFF',
         fontFamily: 'Regular',
         marginTop: '41px',
