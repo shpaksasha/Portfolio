@@ -50,6 +50,7 @@ const useStyles = makeStyles(theme => ({
         },
     },
     learn: {
+        color: '#ffffff',
         fontFamily: 'Regular',
         position: 'absolute',
         left: '50%',

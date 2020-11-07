@@ -28,6 +28,9 @@ const useStyles = makeStyles(theme => ({
         color: '#828282'
     },
     button: {
+        fontWeight: 'bold',
+        fontSize: '14px',
+        color: '#FFFFFF',
         fontFamily: 'Regular',
         marginTop: '41px',
         background: '#29AAE1',
@@ -35,6 +38,7 @@ const useStyles = makeStyles(theme => ({
         borderRadius: '3px',
         textTransform: 'none',
         padding: '14px 30px',
+        letterSpacing: '0.05em',
         '&:hover': {
             color: '#29AAE1',
             background: 'rgba(150, 224, 255, 0.80)',
