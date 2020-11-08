@@ -58,6 +58,9 @@ caption: {
             border: '2px solid #29AAE1',
             boxSizing: 'border-box'
         }
+    },
+    two: {
+        marginTop: '80px'
     }
 }))
 
@@ -79,16 +82,16 @@ const Service = () => {
                     </Button>
                 </Grid>
                 <Grid item md={6}>
-                    <object className={classes.how} type='image/svg+xml' data='/images/ser1.svg'
+                    <object type='image/svg+xml' data='/images/ser1.svg'
                             width='590px' height='430px'/>
                 </Grid>
             </Grid>
-                <Grid conteiner md={12}>
-                    <Grid item md={4}>
-                        <object className={classes.how} type='image/svg+xml' data='/images/ser2.svg'
+                <Grid conteiner md={12} className={classes.two}>
+                    <Grid item md={8}>
+                        <object type='image/svg+xml' data='/images/ser2.svg'
                                 width='495px' height='245px'/>
                     </Grid>
-                    <Grid item md={8}>
+                    <Grid item md={4}>
                         <Typography className={classes.captionItem}>Requirements Analysis</Typography>
                         <Typography className={classes.description}>You can think of requirements analysis as due diligence in some ways. It’s the name given to the collection of processes and techniques used to ensure that whatever is being developed matches user expectations and stakeholder requirements.</Typography>
                     </Grid>
@@ -100,7 +103,7 @@ const Service = () => {
                             strategy consulting, design, development, testing and performance analysis.</Typography>
                     </Grid>
                     <Grid item md={6}>
-                        <object className={classes.how} type='image/svg+xml' data='/images/ser3.svg'
+                        <object type='image/svg+xml' data='/images/ser3.svg'
                                 width='505px' height='252px'/>
                     </Grid>
                 </Grid>
