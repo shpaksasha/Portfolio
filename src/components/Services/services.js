@@ -60,6 +60,7 @@ caption: {
         }
     },
     two: {
+        display:'flex',
         marginTop: '80px'
     }
 }))
@@ -88,12 +89,12 @@ const Service = () => {
             </Grid>
                 <Grid conteiner md={12} className={classes.two}>
                     <Grid item md={8}>
-                        <object type='image/svg+xml' data='/images/ser2.svg'
-                                width='495px' height='245px'/>
-                    </Grid>
-                    <Grid item md={4}>
                         <Typography className={classes.captionItem}>Requirements Analysis</Typography>
                         <Typography className={classes.description}>You can think of requirements analysis as due diligence in some ways. It’s the name given to the collection of processes and techniques used to ensure that whatever is being developed matches user expectations and stakeholder requirements.</Typography>
+                    </Grid>
+                    <Grid item md={4}>
+                        <object type='image/svg+xml' data='/images/ser2.svg'
+                                width='495px' height='245px'/>
                     </Grid>
                 </Grid>
                 <Grid container md={12}>

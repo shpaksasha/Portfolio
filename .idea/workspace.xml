@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/servic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/servic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/servic3.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +32,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,6 +71,7 @@
       <workItem from="1604694454613" duration="4047000" />
       <workItem from="1604754935569" duration="605000" />
       <workItem from="1604781673029" duration="6120000" />
+      <workItem from="1604858740494" duration="4499000" />
     </task>
     <servers />
   </component>
@@ -89,9 +86,9 @@
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/95.41.2465.1399@95.41.2465.1399" timestamp="1604610411852" />
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1604606365664">
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1604858792777">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1604606365664" />
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1604858792777" />
   </component>
 </project>
