@@ -1,7 +1,7 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import {Button, Grid, Typography, Link} from '@material-ui/core'
-import {NavLink} from 'react-router-dom'
+import {Button, Grid, Typography} from '@material-ui/core'
+
 
 const useStyles = makeStyles(theme =>({
     root: {
@@ -46,6 +46,41 @@ const useStyles = makeStyles(theme =>({
             boxSizing: 'border-box'
         }
     },
+    descriptionItem:{
+        fontFamily: 'Poppins',
+        fontSize: '16px',
+        lineHeight: '150%',
+        color: '#828282'
+    },
+    link: {
+        paddingTop: '11px',
+        paddingBottom: '11px',
+        borderTop: '1px solid #BDBDBD',
+        fontSize: '16px',
+        lineHeight: '150%',
+        '& a': {
+            fontFamily: 'Poppins',
+            textDecoration: 'none',
+            color: '#333333',
+        }
+        },
+    link1: {
+        paddingTop: '11px',
+        paddingBottom: '11px',
+        fontSize: '16px',
+        lineHeight: '150%',
+        '& a': {
+            fontFamily: 'Poppins',
+            textDecoration: 'none',
+            color: '#333333',
+        }
+    },
+    captionItem: {
+        fontFamily: 'Regular',
+        fontWeight: 'bold',
+        fontSize: '26px',
+        color: '#151145'
+    },
 }))
 
 
@@ -69,13 +104,17 @@ const Techno = () => {
         </Grid>
     </Grid>
 
-    <Grid container md={12}>
-        <Grid item md={6}>
-            <Typography>Page content:</Typography>
-            <Typography><a href='https://www.pexels.com/search/business/'>картинки для сайта</a></Typography>
+    <Grid container md={12} spacing={10}>
+        <Grid item md={4}>
+            <Typography className={classes.descriptionItem}>Page content:</Typography>
+            <Typography className={classes.link1}>1.<a target='_blank' href='https://www.pexels.com/search/business/'> Картинки для сайта</a></Typography>
+            <Typography className={classes.link}>2.<a target='_blank' href='https://footballua.tv/schedule'> Телеканалы Футбол 1,2,3</a></Typography>
+            <Typography className={classes.link}>3.<a target='_blank' href='https://oll.tv/ru/'> Oll.tv</a></Typography>
+            <Typography className={classes.link}>4.<a target='_blank' href='https://football.ua/'> Football.ua</a></Typography>
         </Grid>
-        <Grid item md={6}>
-
+        <Grid item md={8}>
+            <Typography className={classes.captionItem}>What Is Requirements Analysis?</Typography>
+            <Typography className={classes.description}>You can think of requirements analysis as due diligence in some ways. It’s the name given to the collection of processes and techniques used to ensure that whatever is being developed (an app, a software suite, a website, etc.) matches user expectations and stakeholder requirements.</Typography>
         </Grid>
     </Grid>
 </Grid>
