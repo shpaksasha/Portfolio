@@ -5,6 +5,7 @@ import Home from './components/Home/home';
 import Footer from './components/Footer/footer';
 import AppMenu from './components/Header/head';
 import Service from './components/Services/services';
+import Techno from './components/Technologies/technogies';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <AppMenu/>
             <Route exact path='/' component={Home}/>
             <Route exact path='/services' component={Service}/>
+            <Route exact path='/technologies' component={Techno}/>
             <Footer/>
         </Fragment>
     );

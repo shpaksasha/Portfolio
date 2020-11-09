@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
         flexGrow: 1,
         display: 'flex',
         backgroundColor: '#F2F2F2',
-        height: '280px',
+        height: '260px',
         width: '100%',
         padding: '0rem 6.25rem',
         boxSizing:'border-box'

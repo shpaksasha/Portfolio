@@ -20,7 +20,6 @@ caption: {
     color: '#151145'
 },
     captionItem: {
-        marginTop: ' 40px',
         fontFamily: 'Regular',
         fontWeight: 'bold',
         fontSize: '26px',
@@ -46,7 +45,7 @@ caption: {
         color: '#FFFFFF',
         letterSpacing: '0.05em',
         fontFamily: 'Regular',
-        marginTop: '41px',
+        marginTop: '35px',
         background: '#29AAE1',
         boxShadow: '0px 2px 4px',
         borderRadius: '3px',
@@ -59,9 +58,32 @@ caption: {
             boxSizing: 'border-box'
         }
     },
+    more: {
+        fontWeight: 'bold',
+        fontSize: '13px',
+        color: '#FFFFFF',
+        letterSpacing: '0.05em',
+        fontFamily: 'Regular',
+        marginTop: '22px',
+        background: '#29AAE1',
+        boxShadow: '0px 2px 4px',
+        borderRadius: '3px',
+        textTransform: 'none',
+        padding: '8px 26px',
+        '&:hover': {
+            color: '#29AAE1',
+            background: 'rgba(150, 224, 255, 0.80)',
+            border: '2px solid #29AAE1',
+            boxSizing: 'border-box'
+        }
+    },
     two: {
         display:'flex',
-        marginTop: '80px'
+        marginTop: '110px'
+    },
+    three: {
+        display: 'flex',
+        marginTop: '110px'
     }
 }))
 
@@ -78,9 +100,6 @@ const Service = () => {
                     <Button variant='contained' className={classes.button}>
                         Start your project
                     </Button>
-                    <Button variant='contained' className={classes.button}>
-                        Learn more
-                    </Button>
                 </Grid>
                 <Grid item md={6}>
                     <object type='image/svg+xml' data='/images/ser1.svg'
@@ -88,24 +107,32 @@ const Service = () => {
                 </Grid>
             </Grid>
                 <Grid conteiner md={12} className={classes.two}>
-                    <Grid item md={8}>
+                    <Grid item md={6}>
+                        <object type='image/svg+xml' data='/images/ser2.svg'
+                                width='600px' height='250px'/>
+                    </Grid>
+                    <Grid item md={6}>
                         <Typography className={classes.captionItem}>Requirements Analysis</Typography>
                         <Typography className={classes.description}>You can think of requirements analysis as due diligence in some ways. It’s the name given to the collection of processes and techniques used to ensure that whatever is being developed matches user expectations and stakeholder requirements.</Typography>
+                        <Button variant='contained' className={classes.more}>
+                            Learn more
+                        </Button>
                     </Grid>
-                    <Grid item md={4}>
-                        <object type='image/svg+xml' data='/images/ser2.svg'
-                                width='495px' height='245px'/>
-                    </Grid>
+
                 </Grid>
-                <Grid container md={12}>
+                <Grid container md={12} className={classes.three}>
                     <Grid item md={6}>
                         <Typography className={classes.captionItem}>Agile Innovation Packages</Typography>
                         <Typography className={classes.description}>Our Agile Innovation Packages enable you to continually improve your website and online software systems with monthly packages of hours that can be used for
                             strategy consulting, design, development, testing and performance analysis.</Typography>
+                        <Button variant='contained' className={classes.more}>
+                            Learn more
+                        </Button>
+
                     </Grid>
                     <Grid item md={6}>
                         <object type='image/svg+xml' data='/images/ser3.svg'
-                                width='505px' height='252px'/>
+                                width='610px' height='255px'/>
                     </Grid>
                 </Grid>
             </Grid>
