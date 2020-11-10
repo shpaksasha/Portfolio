@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="" />
+    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Technologies/technogies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Technologies/technogies.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +37,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,6 +51,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/icon" />
     </key>
+  </component>
+  <component name="RunManager" selected="Node.js.technogies.js">
+    <configuration name="services.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Services/services.js" working-dir="$PROJECT_DIR$/src/components/Services">
+      <method v="2" />
+    </configuration>
+    <configuration name="technogies.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Technologies/technogies.js" working-dir="$PROJECT_DIR$/src/components/Technologies">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.technogies.js" />
+        <item itemvalue="Node.js.services.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,6 +92,10 @@
       <workItem from="1604781673029" duration="6120000" />
       <workItem from="1604858740494" duration="4499000" />
       <workItem from="1604867466353" duration="1044000" />
+      <workItem from="1604942845205" duration="13952000" />
+      <workItem from="1604957473331" duration="28000" />
+      <workItem from="1604957520627" duration="234000" />
+      <workItem from="1605031155360" duration="2918000" />
     </task>
     <servers />
   </component>
@@ -91,5 +114,21 @@
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1604867991810" />
+    <state width="2431" height="360" key="GridCell.Tab.0.bottom" timestamp="1605031846249">
+      <screen x="95" y="41" width="2465" height="1399" />
+    </state>
+    <state width="2431" height="360" key="GridCell.Tab.0.bottom/95.41.2465.1399@95.41.2465.1399" timestamp="1605031846249" />
+    <state width="2431" height="360" key="GridCell.Tab.0.center" timestamp="1605031846249">
+      <screen x="95" y="41" width="2465" height="1399" />
+    </state>
+    <state width="2431" height="360" key="GridCell.Tab.0.center/95.41.2465.1399@95.41.2465.1399" timestamp="1605031846249" />
+    <state width="2431" height="360" key="GridCell.Tab.0.left" timestamp="1605031846248">
+      <screen x="95" y="41" width="2465" height="1399" />
+    </state>
+    <state width="2431" height="360" key="GridCell.Tab.0.left/95.41.2465.1399@95.41.2465.1399" timestamp="1605031846248" />
+    <state width="2431" height="360" key="GridCell.Tab.0.right" timestamp="1605031846249">
+      <screen x="95" y="41" width="2465" height="1399" />
+    </state>
+    <state width="2431" height="360" key="GridCell.Tab.0.right/95.41.2465.1399@95.41.2465.1399" timestamp="1605031846249" />
   </component>
 </project>

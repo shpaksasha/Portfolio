@@ -2,7 +2,7 @@ import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import {Button, Grid, Typography} from "@material-ui/core";
 
-const useStyles = makeStyles(theme =>({
+const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
         display: 'flex',
@@ -11,14 +11,14 @@ const useStyles = makeStyles(theme =>({
         alignItems: 'center',
         boxSizing: 'border-box'
     },
-caption: {
-    marginTop: ' 40px',
-    fontFamily: 'Regular',
-    fontWeight: 'bold',
-    fontSize: '50px',
-    lineHeight: '120%',
-    color: '#151145'
-},
+    caption: {
+        marginTop: ' 40px',
+        fontFamily: 'Regular',
+        fontWeight: 'bold',
+        fontSize: '50px',
+        lineHeight: '120%',
+        color: '#151145'
+    },
     captionItem: {
         fontFamily: 'Regular',
         fontWeight: 'bold',
@@ -78,7 +78,7 @@ caption: {
         }
     },
     two: {
-        display:'flex',
+        display: 'flex',
         marginTop: '110px'
     },
     three: {
@@ -89,23 +89,27 @@ caption: {
 
 const Service = () => {
     const classes = useStyles();
-    return(
+    return (
         <div className={classes.root}>
             <Grid container direction='row' spacing={0} md={12}>
-            <Grid container md={12}>
-                <Grid item md={6}>
-                    <Typography className={classes.caption}>Digital analysis</Typography>
-                    <Typography className={classes.description}>Digital analytics encompasses the collection, measurement, analysis, visualisation and interpretation of digital data illustrating user behaviour on websites, mobile sites and mobile applications.</Typography>
-                    <Typography className={classes.descriptionTwo}>Why use Digital Analytics to understand Customer Behavior? Digital data are not just a bunch of numbers. They are the digital footprints of your customers.</Typography>
-                    <Button variant='contained' className={classes.button}>
-                        Start your project
-                    </Button>
+                <Grid container md={12}>
+                    <Grid item md={6}>
+                        <Typography className={classes.caption}>Digital analysis</Typography>
+                        <Typography className={classes.description}>Digital analytics encompasses the collection,
+                            measurement, analysis, visualisation and interpretation of digital data illustrating user
+                            behaviour on websites, mobile sites and mobile applications.</Typography>
+                        <Typography className={classes.descriptionTwo}>Why use Digital Analytics to understand Customer
+                            Behavior? Digital data are not just a bunch of numbers. They are the digital footprints of
+                            your customers.</Typography>
+                        <Button variant='contained' className={classes.button}>
+                            Start your project
+                        </Button>
+                    </Grid>
+                    <Grid item md={6}>
+                        <object type='image/svg+xml' data='/images/ser1.svg'
+                                width='590px' height='430px'/>
+                    </Grid>
                 </Grid>
-                <Grid item md={6}>
-                    <object type='image/svg+xml' data='/images/ser1.svg'
-                            width='590px' height='430px'/>
-                </Grid>
-            </Grid>
                 <Grid conteiner md={12} className={classes.two}>
                     <Grid item md={6}>
                         <object type='image/svg+xml' data='/images/ser2.svg'
@@ -113,7 +117,10 @@ const Service = () => {
                     </Grid>
                     <Grid item md={6}>
                         <Typography className={classes.captionItem}>Requirements Analysis</Typography>
-                        <Typography className={classes.description}>You can think of requirements analysis as due diligence in some ways. It’s the name given to the collection of processes and techniques used to ensure that whatever is being developed matches user expectations and stakeholder requirements.</Typography>
+                        <Typography className={classes.description}>You can think of requirements analysis as due
+                            diligence in some ways. It’s the name given to the collection of processes and techniques
+                            used to ensure that whatever is being developed matches user expectations and stakeholder
+                            requirements.</Typography>
                         <Button variant='contained' className={classes.more}>
                             Learn more
                         </Button>
@@ -123,7 +130,9 @@ const Service = () => {
                 <Grid container md={12} className={classes.three}>
                     <Grid item md={6}>
                         <Typography className={classes.captionItem}>Agile Innovation Packages</Typography>
-                        <Typography className={classes.description}>Our Agile Innovation Packages enable you to continually improve your website and online software systems with monthly packages of hours that can be used for
+                        <Typography className={classes.description}>Our Agile Innovation Packages enable you to
+                            continually improve your website and online software systems with monthly packages of hours
+                            that can be used for
                             strategy consulting, design, development, testing and performance analysis.</Typography>
                         <Button variant='contained' className={classes.more}>
                             Learn more

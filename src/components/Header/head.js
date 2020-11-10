@@ -4,14 +4,14 @@ import {Icon, Toolbar, Typography} from '@material-ui/core';
 import {NavLink} from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
-    root:{
+    root: {
         flexGrow: 1,
         width: '100%',
         display: 'flex',
         backgroundColor: '#eceff1',
         padding: '0rem 6.25rem',
         justifyContent: 'space-between',
-        boxSizing:'border-box'
+        boxSizing: 'border-box'
     },
     icon: {
         textDecoration: 'none',
@@ -32,7 +32,7 @@ const useStyles = makeStyles(theme => ({
         paddingLeft: '5px',
     },
     links: {
-        display:'flex',
+        display: 'flex',
     },
     title: {
         paddingLeft: '125px'
@@ -57,49 +57,49 @@ const useStyles = makeStyles(theme => ({
 
 const AppMenu = () => {
     const classes = useStyles();
-    return(
-    <Toolbar className={classes.root}>
-        <Typography className={classes.icon}>
-            <Icon style={{height: '42px', width: '42px'}}>
-                <NavLink className={classes.eye} to='/'>
-                    <img src='/icon/Ellipse_1.svg'/>
-                    <span className={classes.see}><b>I see</b> you</span>
-                </NavLink>
-            </Icon>
-        </Typography>
-        <div className={classes.links}>
-        <Typography className={classes.title}>
-            <NavLink exact={true} className={classes.link} activeClassName={classes.linkActive} to='/'>
-                Home
-            </NavLink>
-        </Typography>
-        <Typography className={classes.title}>
-            <NavLink className={classes.link} activeClassName={classes.linkActive} to='/services'>
-                Services
-            </NavLink>
-        </Typography>
-        <Typography className={classes.title}>
-            <NavLink className={classes.link} activeClassName={classes.linkActive} to='/technologies'>
-                Technologies
-            </NavLink>
-        </Typography>
-        <Typography className={classes.title}>
-            <NavLink className={classes.link} activeClassName={classes.linkActive} to='/portfolio'>
-                Portfolio
-            </NavLink>
-        </Typography>
-        <Typography className={classes.title}>
-            <NavLink className={classes.link} activeClassName={classes.linkActive} to='/about'>
-                About us
-            </NavLink>
-        </Typography>
-        <Typography className={classes.title}>
-            <NavLink className={classes.link} activeClassName={classes.linkActive} to='/contacts'>
-                Contacts
-            </NavLink>
-        </Typography>
-        </div>
-    </Toolbar>
+    return (
+        <Toolbar className={classes.root}>
+            <Typography className={classes.icon}>
+                <Icon style={{height: '42px', width: '42px'}}>
+                    <NavLink className={classes.eye} to='/'>
+                        <img src='/icon/Ellipse_1.svg'/>
+                        <span className={classes.see}><b>I see</b> you</span>
+                    </NavLink>
+                </Icon>
+            </Typography>
+            <div className={classes.links}>
+                <Typography className={classes.title}>
+                    <NavLink exact={true} className={classes.link} activeClassName={classes.linkActive} to='/'>
+                        Home
+                    </NavLink>
+                </Typography>
+                <Typography className={classes.title}>
+                    <NavLink className={classes.link} activeClassName={classes.linkActive} to='/services'>
+                        Services
+                    </NavLink>
+                </Typography>
+                <Typography className={classes.title}>
+                    <NavLink className={classes.link} activeClassName={classes.linkActive} to='/technologies'>
+                        Technologies
+                    </NavLink>
+                </Typography>
+                <Typography className={classes.title}>
+                    <NavLink className={classes.link} activeClassName={classes.linkActive} to='/portfolio'>
+                        Portfolio
+                    </NavLink>
+                </Typography>
+                <Typography className={classes.title}>
+                    <NavLink className={classes.link} activeClassName={classes.linkActive} to='/about'>
+                        About us
+                    </NavLink>
+                </Typography>
+                <Typography className={classes.title}>
+                    <NavLink className={classes.link} activeClassName={classes.linkActive} to='/contacts'>
+                        Contacts
+                    </NavLink>
+                </Typography>
+            </div>
+        </Toolbar>
     )
 };
 
