@@ -17,19 +17,18 @@ const useStyles = makeStyles(theme => ({
         textDecoration: 'none',
     },
     eye: {
-        position: 'relative',
+        textAlign:'center',
         textDecoration: 'none'
     },
     see: {
+        display: 'inline',
         width: '100%',
-        position: 'absolute',
         color: '#212121',
         fontSize: '12px',
         letterSpacing: '120%',
         textAlign: 'center',
         fontFamily: 'Montserrat',
-        lineHeight: '14px',
-        paddingLeft: '5px',
+        paddingLeft: '10px',
     },
     links: {
         display: 'flex',
