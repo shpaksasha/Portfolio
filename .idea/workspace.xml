@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="" />
+    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/head.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/cards.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_INSPECTION" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1jQZGRWt3OyqGUYa7PbbM1YIftm" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,7 +43,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new_portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -91,6 +103,15 @@
       <workItem from="1604957473331" duration="28000" />
       <workItem from="1604957520627" duration="234000" />
       <workItem from="1605031155360" duration="4129000" />
+      <workItem from="1605206410683" duration="3452000" />
+      <workItem from="1605293939976" duration="6522000" />
+      <workItem from="1605368977325" duration="9785000" />
+      <workItem from="1605432969815" duration="7468000" />
+      <workItem from="1605470797824" duration="1960000" />
+      <workItem from="1605549280939" duration="2749000" />
+      <workItem from="1605558724216" duration="650000" />
+      <workItem from="1605560231995" duration="130000" />
+      <workItem from="1605819529966" duration="1698000" />
     </task>
     <servers />
   </component>
@@ -105,10 +126,10 @@
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/95.41.2465.1399@95.41.2465.1399" timestamp="1604610411852" />
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1604867991810">
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1605560253417">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1604867991810" />
+    <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl/95.41.2465.1399@95.41.2465.1399" timestamp="1605560253417" />
     <state width="2431" height="360" key="GridCell.Tab.0.bottom" timestamp="1605031846249">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
@@ -125,5 +146,13 @@
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state width="2431" height="360" key="GridCell.Tab.0.right/95.41.2465.1399@95.41.2465.1399" timestamp="1605031846249" />
+    <state x="566" y="200" width="1522" height="1087" key="SettingsEditor" timestamp="1605472399634">
+      <screen x="95" y="41" width="2465" height="1399" />
+    </state>
+    <state x="566" y="200" width="1522" height="1087" key="SettingsEditor/95.41.2465.1399@95.41.2465.1399" timestamp="1605472399634" />
+    <state x="1008" y="623" width="638" height="241" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605295868647">
+      <screen x="95" y="41" width="2465" height="1399" />
+    </state>
+    <state x="1008" y="623" width="638" height="241" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/95.41.2465.1399@95.41.2465.1399" timestamp="1605295868647" />
   </component>
 </project>

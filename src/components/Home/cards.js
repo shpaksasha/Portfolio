@@ -70,10 +70,14 @@ const useStyles = makeStyles(theme => ({
     cardBlock6: {
         marginTop: '158px',
     },
-    infoBlock: {
+    infoBlockTop: {
         maxWidth: '270px',
         margin: '0 auto',
         paddingBottom: '52px'
+    },
+    infoBlockBottom: {
+        maxWidth: '270px',
+        margin: '0 auto'
     },
 }))
 
@@ -109,38 +113,38 @@ const Cards = () => {
 
             <Grid items md={9}>
                 <Grid container={12} className={classes.cardBlock6}>
-                    <Grid item md={4} className={classes.infoBlock}>
+                    <Grid item md={4} className={classes.infoBlockTop}>
                         <object type="image/svg+xml" data='/icon/web.svg' width='44' height='44'/>
                         <Typography className={classes.cardTitle}>Web design</Typography>
                         <Typography className={classes.cardDescription}>Let us design your product from hand sketches
                             and UX wireframes to visual design and interactions.</Typography>
                     </Grid>
-                    <Grid item md={4} className={classes.infoBlock}>
+                    <Grid item md={4} className={classes.infoBlockTop}>
                         <object type="image/svg+xml" data='/icon/comp.svg' width='44' height='44'/>
                         <Typography className={classes.cardTitle}>Web development</Typography>
                         <Typography className={classes.cardDescription}>We create web products of all types: from
                             landing pages to web apps, from custom to WordPress.</Typography>
                     </Grid>
-                    <Grid item md={4} className={classes.infoBlock}>
+                    <Grid item md={4} className={classes.infoBlockTop}>
                         <object type="image/svg+xml" data='/icon/tel.svg' width='44' height='44'/>
                         <Typography className={classes.cardTitle}>Mobile development</Typography>
                         <Typography className={classes.cardDescription}>We use only latest technologies while developing
                             mobile products for iOS and Android.</Typography>
                     </Grid>
-                    <Grid item md={4} className={classes.infoBlock}>
+                    <Grid item md={4} className={classes.infoBlockBottom}>
                         <object type="image/svg+xml" data='/icon/services.svg' width='44' height='44'/>
                         <Typography className={classes.cardTitle}>Managed cloud services</Typography>
                         <Typography className={classes.cardDescription}>Share and access resources, including databases,
                             hardware and software tools, across a remote network via multiple servers in another
                             location. </Typography>
                     </Grid>
-                    <Grid item md={4} className={classes.infoBlock}>
+                    <Grid item md={4} className={classes.infoBlockBottom}>
                         <object type="image/svg+xml" data='/icon/desing.svg' width='44' height='44'/>
                         <Typography className={classes.cardTitle}>Graphic design</Typography>
                         <Typography className={classes.cardDescription}>Problem-solving through the use of typography,
                             photography, and illustration.</Typography>
                     </Grid>
-                    <Grid item md={4} className={classes.infoBlock}>
+                    <Grid item md={4} className={classes.infoBlockBottom}>
                         <object type="image/svg+xml" data='/icon/other.svg' width='44' height='44'/>
                         <Typography className={classes.cardTitle}>Other services</Typography>
                         <Typography className={classes.cardDescription}>Learn more about all services we

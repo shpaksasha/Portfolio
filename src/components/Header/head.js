@@ -17,8 +17,9 @@ const useStyles = makeStyles(theme => ({
         textDecoration: 'none',
     },
     eye: {
-        textAlign:'center',
-        textDecoration: 'none'
+        display: 'flex',
+        alignItems: 'center',
+        textDecoration: 'none',
     },
     see: {
         display: 'inline',

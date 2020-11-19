@@ -5,15 +5,17 @@ import {NavLink} from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
     root: {
+        marginTop: '75px',
         flexGrow: 1,
         display: 'flex',
         backgroundColor: '#F2F2F2',
-        height: '260px',
+        height: '315px',
         width: '100%',
         padding: '0rem 6.25rem',
-        boxSizing:'border-box'
+        boxSizing: 'border-box',
     },
     caption: {
+        marginTop: '44px',
         fontWeight:'bold',
         color: '#151145',
         fontSize: '18px',
@@ -31,6 +33,10 @@ const useStyles = makeStyles(theme => ({
         fontFamily: 'Poppins',
         textDecoration: 'none',
     },
+    linkActive: {
+        color: '#151145',
+        borderBottom: '1px solid #37474f'
+    }
 }))
 
 const Footer = () => {
@@ -72,7 +78,7 @@ const Footer = () => {
                     <Typography className={classes.caption}>Contact us</Typography>
 
                     <Typography className={classes.text}>
-                        <NavLink className={classes.link} activeClassName={classes.linkActive} to="/contacts">Contact
+                        <NavLink className={classes.link} to="#">Contact
                             us</NavLink>
                     </Typography>
                 </Grid>
@@ -80,11 +86,11 @@ const Footer = () => {
                 <Grid item md={3}>
                     <Typography className={classes.caption}>Career</Typography>
                     <Typography className={classes.text}>
-                        <NavLink className={classes.link} activeClassName={classes.linkActive} to="">Open
+                        <NavLink className={classes.link} to="#">Open
                             vacancies</NavLink>
                     </Typography>
                     <Typography className={classes.text}>
-                        <NavLink className={classes.link} activeClassName={classes.linkActive} to="">Our motto</NavLink>
+                        <NavLink className={classes.link} to="#">Our motto</NavLink>
                     </Typography>
                 </Grid>
             </Grid>
