@@ -111,7 +111,7 @@ const Technologies = () => {
                         </Button>
                     </Grid>
                     <Grid item md={6}>
-                        <object type='image/svg+xml' data='/images/techno1.svg'
+                        <object type='image/svg+xml' data={'/images/techno1.svg'}
                                 width='750px' height='440px'/>
                     </Grid>
                 </Grid>
@@ -189,4 +189,4 @@ const Technologies = () => {
     )
 };
 
-export default Techno;
+export default Technologies;

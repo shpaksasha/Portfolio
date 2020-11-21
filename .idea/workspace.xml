@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/head.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Technologies/technogies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Technologies/technogies.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +44,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../new_portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -111,7 +114,7 @@
       <workItem from="1605558724216" duration="650000" />
       <workItem from="1605560231995" duration="130000" />
       <workItem from="1605819529966" duration="2234000" />
-      <workItem from="1605956369402" duration="1663000" />
+      <workItem from="1605956369402" duration="2919000" />
     </task>
     <task id="LOCAL-00001" summary="fixed everything pages">
       <created>1605821288516</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605957202416</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="page technologies changes">
+      <created>1605958071949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605958071949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,17 +147,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fixed everything pages" />
     <MESSAGE value="indent to page technologies" />
-    <option name="LAST_COMMIT_MESSAGE" value="indent to page technologies" />
+    <MESSAGE value="page technologies changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="page technologies changes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1104" y="586" width="437" height="316" key="#ESLint" timestamp="1605958665534">
+      <screen x="95" y="41" width="2465" height="1399" />
+    </state>
+    <state x="1104" y="586" width="437" height="316" key="#ESLint/95.41.2465.1399@95.41.2465.1399" timestamp="1605958665534" />
     <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604610411852">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state x="929" y="371" width="786" height="745" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/95.41.2465.1399@95.41.2465.1399" timestamp="1604610411852" />
-    <state x="657" y="112" width="1330" height="1263" key="CommitChangelistDialog2" timestamp="1605957202302">
+    <state x="657" y="112" width="1330" height="1263" key="CommitChangelistDialog2" timestamp="1605958071885">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="657" y="112" width="1330" height="1263" key="CommitChangelistDialog2/95.41.2465.1399@95.41.2465.1399" timestamp="1605957202302" />
+    <state x="657" y="112" width="1330" height="1263" key="CommitChangelistDialog2/95.41.2465.1399@95.41.2465.1399" timestamp="1605958071885" />
     <state x="1004" y="384" width="636" height="719" key="FileChooserDialogImpl" timestamp="1605956513013">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
@@ -172,10 +187,10 @@
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
     <state x="566" y="200" width="1522" height="1087" key="SettingsEditor/95.41.2465.1399@95.41.2465.1399" timestamp="1605472399634" />
-    <state x="722" y="351" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1605957222690">
+    <state x="722" y="351" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1605958110654">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
-    <state x="722" y="351" width="1200" height="785" key="Vcs.Push.Dialog.v2/95.41.2465.1399@95.41.2465.1399" timestamp="1605957222690" />
+    <state x="722" y="351" width="1200" height="785" key="Vcs.Push.Dialog.v2/95.41.2465.1399@95.41.2465.1399" timestamp="1605958110654" />
     <state x="1008" y="623" width="638" height="241" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605295868647">
       <screen x="95" y="41" width="2465" height="1399" />
     </state>
