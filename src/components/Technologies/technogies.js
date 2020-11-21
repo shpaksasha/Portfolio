@@ -47,7 +47,7 @@ const useStyles = makeStyles(theme => ({
         }
     },
     descriptionItem: {
-        marginTop: '45px',
+        marginTop: '7px',
         fontFamily: 'Poppins',
         fontSize: '16px',
         lineHeight: '150%',
@@ -77,7 +77,7 @@ const useStyles = makeStyles(theme => ({
         }
     },
     captionItem: {
-        marginTop: '48px',
+
         fontFamily: 'Regular',
         fontWeight: 'bold',
         fontSize: '26px',
@@ -85,7 +85,10 @@ const useStyles = makeStyles(theme => ({
     },
     textBlock: {
         marginLeft: '80px'
-    }
+    },
+    allBlock: {
+        marginTop: '60px'
+    },
 }))
 
 
@@ -113,7 +116,7 @@ const Techno = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container md={12} spacing={10}>
+                <Grid container md={12} spacing={10} className={classes.allBlock}>
                     <Grid item md={4}>
                         <Typography className={classes.descriptionItem}>Page content:</Typography>
                         <Typography className={classes.linkFirst}><a target='_blank'
