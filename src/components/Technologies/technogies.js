@@ -92,7 +92,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 
-const Techno = () => {
+const Technologies = () => {
     const classes = useStyles();
     return (
         <div className={classes.root}>

@@ -22,12 +22,10 @@ const useStyles = makeStyles(theme => ({
         textDecoration: 'none',
     },
     see: {
-        display: 'inline',
         width: '100%',
         color: '#212121',
         fontSize: '12px',
         letterSpacing: '120%',
-        textAlign: 'center',
         fontFamily: 'Montserrat',
         paddingLeft: '10px',
     },
