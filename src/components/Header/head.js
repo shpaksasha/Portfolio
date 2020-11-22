@@ -71,14 +71,14 @@ const AppMenu = () => {
     }
 
     useEffect(() => {
-        window.addEventListener("scroll", scrollListener);
+        window.addEventListener('scroll', scrollListener);
         return () => {
-            window.removeEventListener("scroll", scrollListener);
+            window.removeEventListener('scroll', scrollListener);
         }
     }, [scrollListener])
 
-    const classes = useStyles();
 
+    const classes = useStyles();
 
     return (
         <Toolbar className={`${classes.root} ${isOffset > 0 ? classes.shadow : null}`}>
