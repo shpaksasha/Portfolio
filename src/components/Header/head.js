@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import {Icon, Toolbar, Typography} from '@material-ui/core';
 import {NavLink} from 'react-router-dom';
@@ -11,8 +11,16 @@ const useStyles = makeStyles(theme => ({
         backgroundColor: '#eceff1',
         padding: '0rem 6.25rem',
         justifyContent: 'space-between',
-        boxSizing: 'border-box'
+        boxSizing: 'border-box',
+        position: 'sticky',
+        top: 0,
+        zIndex: 1,
     },
+
+    shadow: {
+        boxShadow: '0px 4px 11px 2px rgba(0,0,0,0.25)'
+    },
+
     icon: {
         textDecoration: 'none',
     },
@@ -54,9 +62,26 @@ const useStyles = makeStyles(theme => ({
 
 
 const AppMenu = () => {
+
+    const [isOffset, setIsOffset] = useState(window.pageYOffset);
+
+    const scrollListener = () => {
+        setIsOffset(window.pageYOffset);
+        console.log(isOffset);
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", scrollListener);
+        return () => {
+            window.removeEventListener("scroll", scrollListener);
+        }
+    }, [scrollListener])
+
     const classes = useStyles();
+
+
     return (
-        <Toolbar className={classes.root}>
+        <Toolbar className={`${classes.root} ${isOffset > 0 ? classes.shadow : null}`}>
             <Typography className={classes.icon}>
                 <Icon style={{height: '42px', width: '42px'}}>
                     <NavLink className={classes.eye} to='/'>
