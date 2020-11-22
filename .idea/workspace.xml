@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Header/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/head.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +114,7 @@
       <workItem from="1605819529966" duration="2234000" />
       <workItem from="1605956369402" duration="3788000" />
       <workItem from="1606061551306" duration="1206000" />
+      <workItem from="1606066417369" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="fixed everything pages">
       <created>1605821288516</created>
