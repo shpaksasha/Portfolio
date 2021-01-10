@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ItemBlock/item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemBlock/item.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Services/services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Services/services.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TechnologiesDescription/secondblock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TechnologiesDescription/secondblock.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TechnologiesItem/firstblock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TechnologiesItem/firstblock.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/Ellipse_1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icon/ellipse.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pexels.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ser1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/digital_1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ser2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/digital_2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ser3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/digital_3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/techno1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/technologies_1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +21,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_INSPECTION" />
