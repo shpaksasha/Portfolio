@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/head.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/cards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeImage/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeImage/image.styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/services.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/services.styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Technologies/technogies.js" beforeDir="false" />
-    </list>
+    <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,15 +52,20 @@
       <recent name="$PROJECT_DIR$/public/icon" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.technogies.js">
-    <configuration name="services.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Services/services.js" working-dir="$PROJECT_DIR$/src/components/Services">
+  <component name="RunManager" selected="Node.js.technologies.js">
+    <configuration name="services.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/pages/Services/services.js" working-dir="$PROJECT_DIR$/src/pages/Services">
       <method v="2" />
     </configuration>
     <configuration name="technogies.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Technologies/technogies.js" working-dir="$PROJECT_DIR$/src/components/Technologies">
       <method v="2" />
     </configuration>
+    <configuration name="technologies.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/pages/Technologies/technologies.js" working-dir="$PROJECT_DIR$/src/pages/Technologies">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.technologies.js" />
+        <item itemvalue="Node.js.services.js" />
         <item itemvalue="Node.js.technogies.js" />
         <item itemvalue="Node.js.services.js" />
       </list>
