@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7345488f-e5ed-40e6-840d-747a254c0610" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Digital/digital.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Digital/digital.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606072024431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="delete header page 1">
+      <created>1610391939561</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610391939561</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +202,7 @@
     <MESSAGE value="warning changes" />
     <MESSAGE value="add scrolling to page" />
     <MESSAGE value="delete header page" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete header page" />
+    <MESSAGE value="delete header page 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete header page 1" />
   </component>
 </project>
