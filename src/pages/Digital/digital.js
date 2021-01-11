@@ -31,7 +31,7 @@ const Digital = () => {
                 <Grid conteiner md={12} sm={12} className={classes.two}>
                     <Hidden smDown>
                         <Grid item md={6} sm={12}>
-                            <object className={classes.images} type='image/svg+xml' data='/images/digital_2.svg'
+                            <object className={classes.images} style={{paddingRight: '20px'}} type='image/svg+xml' data='/images/digital_2.svg'
                                     width='100%' height='auto'/>
                         </Grid>
                     </Hidden>
