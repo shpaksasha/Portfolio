@@ -1,5 +1,5 @@
 import React from 'react';
-import {useStyles} from './secondblock.styles';
+import {useStyles} from './second.styles';
 import {Grid, Typography, Hidden} from '@material-ui/core';
 
 

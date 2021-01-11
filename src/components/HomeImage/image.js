@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button, Grid, Typography} from '@material-ui/core';
-import {useStyles} from './item.styles';
+import {useStyles} from './image.styles';
 
 
 const ItemBlock = () => {

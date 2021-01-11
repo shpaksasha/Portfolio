@@ -1,5 +1,5 @@
 import React from 'react';
-import {useStyles} from './firstblock.styles';
+import {useStyles} from './first.styles';
 import {Grid, Typography, Button} from '@material-ui/core';
 
 
