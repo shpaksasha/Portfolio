@@ -59,6 +59,7 @@ const AppMenu = () => {
                     Services
                 </NavLink>
             </Typography>
+
             <Typography className={classes.title}>
                 <NavLink className={classes.link} activeClassName={classes.linkActive} to='/technologies'>
                     Technologies
